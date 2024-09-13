@@ -1,16 +1,5 @@
-import {
-  FaWindows,
-  FaXbox,
-  FaPlaystation,
-  FaApple,
-  FaAndroid,
-  FaLinux,
-} from "react-icons/fa";
-import { MdPhoneIphone } from "react-icons/md";
-import { SiNintendo } from "react-icons/si";
-import { BsGlobe } from "react-icons/bs";
 import { Game } from "../hooks/useGames";
-import { Card, CardBody, Heading, HStack, Image, Text } from "@chakra-ui/react";
+import { Card, CardBody, Heading, HStack, Image } from "@chakra-ui/react";
 import PlatformIconList from "./PlatformIconList";
 import CriticScores from "./CriticScores";
 import getCroppedUrl from "../services/image-url";
